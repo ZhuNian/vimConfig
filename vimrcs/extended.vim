@@ -36,10 +36,10 @@ set guioptions-=L
 " Colorscheme
 if has("gui_running")
     set background=dark
-    colorscheme peaksea
+    colorscheme dracula 
 else
-    colorscheme desert
-    let g:colors_name="desert"
+    colorscheme dracula 
+    let g:colors_name="dracula"
 endif
 
 

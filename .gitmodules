@@ -1,0 +1,6 @@
+[submodule "sources_non_forked/bundle/dracula-theme"]
+	path = sources_non_forked/bundle/dracula-theme
+	url = git@github.com:dracula/vim.git
+[submodule "sources_non_forked/dracula-theme"]
+	path = sources_non_forked/dracula-theme
+	url = git@github.com:dracula/vim.git
