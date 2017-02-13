@@ -101,8 +101,8 @@ set expandtab
 set smarttab
 
 " 1 tab == 4 spaces
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 
 
 " Linebreak on 500 characters
@@ -228,6 +228,19 @@ let g:syntastic_check_on_wq = 0
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:gitgutter_enabled=0
 nnoremap <silent> <leader>d :GitGutterToggle<cr>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Vim auto famat
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+noremap <F2> :Autoformat<CR>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Vim syntastic
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+noremap <F9> :SyntasticToggleMode<CR>
+let g:autoformat_autoindent = 0
+let g:autoformat_retab = 0
+let g:autoformat_remove_trailing_spaces = 0
 
 " Set to auto read when a file is changed from the outside
 set autoread
