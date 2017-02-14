@@ -242,6 +242,17 @@ let g:autoformat_autoindent = 0
 let g:autoformat_retab = 0
 let g:autoformat_remove_trailing_spaces = 0
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Vim airline theme
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:airline_theme='bubblegum'
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Vim ctrlp
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
+
 " Set to auto read when a file is changed from the outside
 set autoread
 
