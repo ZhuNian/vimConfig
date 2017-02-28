@@ -272,3 +272,8 @@ map <C-l> <C-W>l
 
 " set number and relative number
 set relativenumber 
+
+set autoread
+
+" disable YMC preview
+set completeopt-=preview
